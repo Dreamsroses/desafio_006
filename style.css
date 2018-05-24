@@ -1,0 +1,81 @@
+.container1{
+	background-color: #F9F9F9;
+	margin-top: 50px;
+	padding: 40px;
+}
+.img-perfil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border-radius: 50%;
+}
+.presentation{
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 50px;
+	color: grey;
+}
+
+.container2{
+  	display: grid;
+  	grid-template-columns: 60% auto;
+  	padding: 1px;
+}
+.col-sm-4.col-md-8{
+	background-color: #F9F9F9;
+	padding-top: 2px;
+	font-size: 30px;
+}
+.container2 h1{
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+.container2 p{
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+.container3{
+  	display: grid;
+  	grid-template-columns: 60% auto;
+  	padding: 1px;
+}
+.container3 h1{
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+.year{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+}
+.titulo{
+	float: left;
+	padding: 0px 450px 10px 2px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #DDDFE5;
+	box-sizing: border-box;
+}
+.clearfix{
+	overflow: auto;
+}
+.year2{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+}
+.titulo2{
+	float: left;
+	padding: 0px 75px 10px 2px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #DDDFE5;
+	box-sizing: border-box;
+}
+
