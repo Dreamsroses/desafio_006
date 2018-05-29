@@ -1,18 +1,18 @@
 body, header{
-	margin: 80px;
+	margin: 40px;
 }
-
 
 .container1{
 	background-color: #F9F9F9;
-	margin-top: 50px;
-	padding: 50px;
+	margin-top: 60px;
+	padding: 5px;
 }
 .img-perfil{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
 }
 .presentation{
@@ -22,11 +22,10 @@ body, header{
 	color: #E59821;
 }
 
-
 .container2{
   	display: grid;
-  	grid-template-columns: 60% auto;
-  	padding: 1px;
+  	grid-template-columns: 50% 50% 50% 50%;
+  	margin-top: 5px;
 }
 .col-sm-4.col-md-8{
 	background-color: #F9F9F9;
@@ -36,93 +35,206 @@ body, header{
 .container2 h1{
 	font-size: 20px;
 	font-family: 'PT Sans', sans-serif;
+	color: orange;
 }
 .container2 p{
 	text-align: justify;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
+.Contacto{
+	float: auto;
+	margin-left: 5px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	color: orange;
+}
+.container2 li{
+	margin-left: 10px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	padding-left: 40px;
+	margin-left: 50px;
+}
 
 
 .container3{
   	display: grid;
-  	grid-template-columns: 60% auto;
-  	padding: 1px;
+  	grid-template-columns: 50% 50% 50% 50%;
+  	margin-top: 5px;
 }
 .container3 h1{
 	font-size: 20px;
 	font-family: 'PT Sans', sans-serif;
+	color: orange;
 }
 .year{
-	float: left;
 	margin-left: 10px;
 	font-size: 14px;
 	font-family: 'PT Sans', sans-serif;
 }
 .titulo{
-	float: left;
-	padding: 0px 450px 10px 2px;
+	padding: auto;
 	margin-left: 10px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 	background-color: #FCFFB2;
-	box-sizing: border-box;
-}
-.clearfix{
-	overflow: auto;
+	border: 2px solid white;	
+    border-radius: 5px;
 }
 .year2{
-	float: left;
 	margin-left: 10px;
 	font-size: 14px;
 	font-family: 'PT Sans', sans-serif;
 }
 .titulo2{
-	float: left;
-	padding: 0px 75px 10px 2px;
+	padding: auto;
 	margin-left: 10px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 	background-color: #FCFFB2;
+	border: 2px solid white;	
+    border-radius: 5px;
+}
+.skills{
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	color: orange;
+	padding-left: auto;
 	box-sizing: border-box;
 }
-
+.container3 li{
+	margin-left: 60px;
+	padding-left: 8px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	list-style: none;
+}
+.container3 .ps{
+	background-color: orange;
+	width: 300px;
+	border: 2px solid white;	
+    border-radius: 5px;
+}
+.container3 .ai{
+	background-color: orange;
+	width: 270px;
+	border: 2px solid white;	
+    border-radius: 5px;
+}
+.container3 .muse{
+	background-color: orange;
+	width: 240px;
+	border: 2px solid white;	
+    border-radius: 5px;
+}
+.container3 .html{
+	background-color: orange;
+	width: 210px;
+	border: 2px solid white;	
+    border-radius: 5px;
+}
+.container3 .css{
+	background-color: orange;
+	width: 180px;
+	border: 2px solid white;	
+    border-radius: 5px;
+}
+.container3 .js{
+	background-color: orange;
+	width: 150px;
+	border: 2px solid white;	
+    border-radius: 5px;
+}
 
 
 .container4{
   	display: grid;
-  	grid-template-columns: 60% auto;
+  	grid-template-columns: 50% 50% 50% 50%;
+  	margin-top: 5px;
 }
 .container4 h1{
 	font-size: 20px;
 	font-family: 'PT Sans', sans-serif;
+	color: orange;
 }
-
 .empresa{
-	float: left;
 	margin-left: 10px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
 .cargo{
-	float: right;
 	margin-left: 10px;
 	font-size: 14px;
 	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
 }
 .clearfix{
 	overflow: auto;
 }
-.empresa2{
-	float: left;
+.idiomas{
 	margin-left: 10px;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'PT Sans', sans-serif;
+	color: orange;
+	padding-left: 35px;
 	box-sizing: border-box;
 }
-.cargo2{
-	float: left;
+.ingles{
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	padding-left: 50px;
+}
+.español{
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	padding-left: 40px;
+}
+.fa-star{
+    position: relative;
+    left: 200px;
+    margin-right: 12px;	
+    color: #FFB365;
+}
+.hobbies{
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	color: orange;
+	padding-left: 35px;
+	box-sizing: border-box;
+}
+.foto{
+	background-color: #FFB365;
+	width: 100px;	
+    border-radius: 5px;
+    margin-left: 60px;
+	padding-left: 8px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+.coleccion{
+	background-color: #FFB365;
+	width: 350px;	
+    border-radius: 5px;
+    margin-left: 60px;
+	padding-left: 8px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+.game{
+	background-color: #FFB365;
+	width: 100px;	
+    border-radius: 5px;
+    margin-left: 60px;
+	padding-left: 8px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+.footer{
+	color: #FFB365;
+	text-align: right;
+	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
