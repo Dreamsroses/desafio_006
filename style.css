@@ -43,11 +43,12 @@ body, header{
 	font-family: 'PT Sans', sans-serif;
 }
 .Contacto{
-	float: auto;
-	margin-left: 5px;
+	margin-left: 10px;
+	padding-left: auto;
 	font-size: 20px;
 	font-family: 'PT Sans', sans-serif;
 	color: orange;
+	box-sizing: border-box;
 }
 .container2 li{
 	margin-left: 10px;
@@ -184,17 +185,17 @@ body, header{
 .ingles{
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
-	padding-left: 50px;
+	padding-left: 60px;
 }
 .español{
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
-	padding-left: 40px;
+	padding-left: 50px;
 }
 .fa-star{
     position: relative;
-    left: 200px;
-    margin-right: 12px;	
+    left: 100px;
+    margin-right: 18px;	
     color: #FFB365;
 }
 .hobbies{
@@ -210,16 +211,18 @@ body, header{
 	width: 100px;	
     border-radius: 5px;
     margin-left: 60px;
-	padding-left: 8px;
+	padding-left: 18px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
 .coleccion{
 	background-color: #FFB365;
-	width: 350px;	
+	width: 250px;	
     border-radius: 5px;
     margin-left: 60px;
-	padding-left: 8px;
+	padding-left: 18px;
+	padding-bottom: 2px;
+	padding-right: 10px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
@@ -228,7 +231,7 @@ body, header{
 	width: 100px;	
     border-radius: 5px;
     margin-left: 60px;
-	padding-left: 8px;
+	padding-left: 18px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
@@ -237,4 +240,176 @@ body, header{
 	text-align: right;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+body{
+	margin: 0px;
+}
+.container2{
+	display: grid;
+  	grid-template-columns: 100%;
+  	list-style-type: none;
+}
+.Contacto{
+  	margin: 4px;
+  	padding: 3px;
+}
+.container2 li{
+	margin-left: 1px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+}
+.container3{
+	display: grid;
+  	grid-template-columns: 100%;
+  	list-style-type: none;
+}
+.skills{
+  	margin: 4px;
+  	padding: 3px;
+}
+.container3 .ps{
+	background-color: orange;
+	border: 1px solid white;	
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3px;
+}
+.container3 .ai{
+    margin: 3px;
+    padding: 3px;
+}
+.container3 .muse{
+    margin: 3px;
+    padding: 3px;
+}
+.container3 .html{
+    margin: 3px;
+    padding: 3px;
+}
+.container3 .css{
+    margin: 3px;
+    padding: 3px;
+}
+.container3 .js{
+    margin: 3px;
+    padding: 3px;
+}
+.container4{
+	display: grid;
+  	grid-template-columns: 100%;
+  	margin-top: 5px;
+  	margin: 2px;
+}
+.idiomas{
+  	margin: 1px;
+  	padding: 4px;
+}
+.ingles{
+  	margin: 1px;
+  	padding: 4px;
+  	text-align: left;
+}
+.español{
+  	margin: 1px;
+  	padding: 4px;
+  	text-align: left;
+  	display: inline-block;
+  	clear: both;
+}
+.hobbies{
+  	margin: 1px;
+  	padding: 4px;
+}
+.container4 p{
+  	margin: 1px;
+  	padding: 4px;
+}
+.fa-star{
+	margin: 1px;
+  	padding: 1px;
+  	text-align: right;
+}
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+body{
+	background-color: purple;
+	margin: 0px;
+}
+.container2{
+	display: grid;
+  	grid-template-columns: 100%;
+  	list-style-type: none;
+}
+.Contacto{
+  	margin: 10px;
+  	padding: 10px;
+}
+.container2 li{
+	margin: 10px;
+	padding: 10px;
+}
+.container3{
+	display: grid;
+  	grid-template-columns: 100%;
+  	list-style-type: none;
+}
+.skills{
+  	margin: 10px;
+  	padding: 10px;
+}
+.container3 .ps{
+    margin: 10px;
+    padding: 10px;
+}
+.container3 .ai{
+    margin: 10px;
+    padding: 10px
+}
+.container3 .muse{
+    margin: 10px;
+    padding: 10px
+}
+.container3 .html{
+    margin: 10px;
+    padding: 10px
+}
+.container3 .css{
+    margin: 10px;
+    padding: 10px
+}
+.container3 .js{
+    margin: 10px;
+    padding: 10px
+}
+
+.container4{
+	display: grid;
+  	grid-template-columns: 100%;
+  	margin-top: 5px;
+  	margin: 6px;
+}
+.idiomas{
+    margin: 10px;
+    padding: 10px
+}
+.ingles{
+    margin: 10px;
+    padding: 10px
+}
+.español{
+    margin: 10px;
+    padding: 10px
+}
+.hobbies{
+    margin: 10px;
+    padding: 10px
+}
+.container4 p{
+    margin: 10px;
+    padding: 10px
+}
 }
